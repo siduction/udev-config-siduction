@@ -1,0 +1,24 @@
+Source: udev-config-siduction
+Section: admin
+Priority: extra
+Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
+ Ferdinand Thommes <devil@siduction.org>
+Build-Depends: debhelper (>= 8)
+Standards-Version: 3.9.2
+Vcs-Svn: 
+Vcs-Browser: http://git.siduction.org/packages/siduction-repository/udev-config-siduction
+
+Package: udev-config-siduction
+Architecture: all
+Depends: ${misc:Depends},
+ udev (>= 0.091-1)
+Breaks: xserver-xorg-core (<< 2:1.7.6.901-2)
+Description: custom udev configurations for udev
+ Configure PCI IDs and udev events needed by siduction.
+ .
+ This also provides xorg.conf.d snippets to enable advanced touchpad features
+ for:
+  - synaptics
+  - alps
+  - elantech
+  - appletouch

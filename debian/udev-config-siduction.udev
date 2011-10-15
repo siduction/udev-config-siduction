@@ -1,0 +1,1 @@
+KERNEL=="event*",ATTRS{name}=="*dvb*|*DVB*|* IR *",SYMLINK="input/ir"
