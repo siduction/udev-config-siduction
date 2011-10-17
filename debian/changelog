@@ -1,6 +1,9 @@
-udev-config-siduction (0.11.6) UNRELEASED; urgency=low
+udev-config-siduction (0.12.); urgency=low
 
-  * NOT RELEASED YET
+    * bumped version to 0.12.
+
+ -- Ferdinand Thommes <devil@siduction.org>  Mon, 17. Oct. 2011 11:02:42 +0200
+
  -- Ferdinand Thommes <devil@siduction.org>  Sat, 15. Oct. 2011 12:42:12 +0200
 
   * renamed to udev-config-siduction
