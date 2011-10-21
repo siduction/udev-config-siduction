@@ -1,10 +1,13 @@
 This package was debianized by Stefan Lippers-Hollmann <s.l-h@gmx.de> on
 Sat, 15 Oct 2005 13:24:29 +0200.
 
-It was downloaded from http://aptosid.com
+Forked by Ferdinand Thommes <devil@siduction.org> for siduction.
 
-Copyright Holder: © 2005-2010 Stefan Lippers-Hollmann <s.l-h@gmx.de>
-		  © 2011 Ferdinand Thommes <devil@siduction.org>
+It was downloaded from http://developer.berlios.de/projects/fullstory/
+
+Copyright Holders:
+	Copyright © 2011 Ferdinand Thommes <devil@siduction.org>
+	Copyright © 2005-2010 Stefan Lippers-Hollmann <s.l-h@gmx.de>
 
 License:
 

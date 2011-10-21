@@ -1,12 +1,13 @@
 Source: udev-config-siduction
 Section: admin
 Priority: extra
-Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
- Ferdinand Thommes <devil@siduction.org>
+Maintainer:  Ferdinand Thommes <devil@siduction.org>
+XSBC-Orignal-Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
 Build-Depends: debhelper (>= 8)
 Standards-Version: 3.9.2
-Vcs-Svn: 
-Vcs-Browser: http://git.siduction.org/packages/siduction-repository/udev-config-siduction
+Vcs-Git:  git://git.siduction.org/packages/siduction-repository/udev-config-siduction.git
+Vcs-Browser: http://git.siduction.org/?p=packages/siduction-repository/udev-config-siduction.git
+Homepage:  http://svn.berlios.de/wsvn/fullstory/udev-config-aptosid/
 
 Package: udev-config-siduction
 Architecture: all
