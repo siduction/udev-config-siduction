@@ -1,16 +1,22 @@
+udev-config-siduction (0.12.0) unstable; urgency=low
+
+  * bumped version to 0.12.0
+
+ -- Ferdinand Thommes <devil@siduction.org>  Fri, 21 Oct 2011 20:57:24 +0200
+
 udev-config-siduction (0.11.6+nmu2) UNRELEASED; urgency=low
 
   * Non-maintainer upload.
-  * Fixes #259 - fix udev-config-siduction ./debian
+  * Fixes #259 - fix udev-config-siduction ./debian 
 
- -- Alf Gaida <info@g-com.eu>  Fri, 21 Oct 2011 20:38:55 +0200
+ -- Alf Gaida <info@g-com.eu>  Fri, 21 Oct 2011 20:57:02 +0200
 
 udev-config-siduction (0.11.6+nmu1) UNRELEASED; urgency=low
 
   * Non-maintainer upload.
   * rename to udev-config-siduction
 
- -- Ferdinand Thommes <devil@siduction.org> Sat, 15 Oct 2011 12:42:12 +0200
+ -- Ferdinand Thommes <devil@siduction.org>  Sat, 15 Oct 2011 12:42:12 +0200
 
 udev-config-aptosid (0.11.6) UNRELEASED; urgency=low
 
