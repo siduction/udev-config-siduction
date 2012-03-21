@@ -1,3 +1,11 @@
+udev-config-siduction (0.12.2) unstable; urgency=low
+
+  * debian/source.lntian-overrides added to get rid of XSBC-Original-Maintainer
+    warnings 
+  * rebuild fixes #633 
+
+ -- Alf Gaida <agaida@siduction.org>  Wed, 21 Mar 2012 23:08:57 +0100
+
 udev-config-siduction (0.12.1) unstable; urgency=low
 
   * added myself to uploaders (was done former)
