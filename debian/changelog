@@ -1,3 +1,11 @@
+udev-config-siduction (2014.01.08) unstable; urgency=medium
+
+  * remove xbsc-original-maintainer
+  * new copyright format
+  * new standards
+
+ -- Alf Gaida <agaida@siduction.org>  Wed, 08 Jan 2014 19:17:16 +0100
+
 udev-config-siduction (0.12.2) unstable; urgency=low
 
   * debian/source.lntian-overrides added to get rid of XSBC-Original-Maintainer

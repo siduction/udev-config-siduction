@@ -3,18 +3,19 @@ Section: admin
 Priority: extra
 Maintainer:  Ferdinand Thommes <devil@siduction.org>
 Uploaders: Alf Gaida <agaida@siduction.org>
-XSBC-Orignal-Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
 Build-Depends: debhelper (>= 9)
-Standards-Version: 3.9.3
+Standards-Version: 3.9.5
 Vcs-Git:  git://git.siduction.org/packages/siduction-repository/udev-config-siduction.git
 Vcs-Browser: http://git.siduction.org/?p=packages/siduction-repository/udev-config-siduction.git
 Homepage:  http://svn.berlios.de/wsvn/fullstory/udev-config-aptosid/
 
 Package: udev-config-siduction
 Architecture: all
-Depends: ${misc:Depends},
+Depends: 
+ ${misc:Depends},
  udev (>= 0.091-1)
-Breaks: xserver-xorg-core (<< 2:1.7.6.901-2)
+Breaks: 
+ xserver-xorg-core (<< 2:1.7.6.901-2)
 Description: custom udev configurations for udev
  Configure PCI IDs and udev events needed by siduction.
  .
