@@ -1,1 +1,3 @@
-KERNEL=="event*",ATTRS{name}=="*dvb*|*DVB*|* IR *",SYMLINK="input/ir"
+SUBSYSTEM=="input",ATTRS{idVendor}=="05a4",ATTRS{idProduct}=="9881",IMPORT{program}="input_id %p"
+SUBSYSTEM=="input",ATTRS{idVendor}=="05a4",ATTRS{idProduct}=="9881",ENV{ID_INPUT_KEYBOARD}=="1",SYMLINK="input/irremote0"
+SUBSYSTEM=="input",ATTRS{idVendor}=="05a4",ATTRS{idProduct}=="9881",ENV{ID_INPUT_MOUSE}=="1",SYMLINK="input/irremote1"

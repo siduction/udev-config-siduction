@@ -1,22 +1,21 @@
 Source: udev-config-siduction
+Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
+Uploaders: Alf Gaida <agaida@siduction.org>
 Section: admin
 Priority: extra
-Maintainer:  Ferdinand Thommes <devil@siduction.org>
-Uploaders: Alf Gaida <agaida@siduction.org>
 Build-Depends: debhelper (>= 9)
-Standards-Version: 3.9.5
-Vcs-Git:  git://git.siduction.org/packages/siduction-repository/udev-config-siduction.git
+Standards-Version: 3.9.8
 Vcs-Browser: http://git.siduction.org/?p=packages/siduction-repository/udev-config-siduction.git
-Homepage:  http://svn.berlios.de/wsvn/fullstory/udev-config-aptosid/
+Vcs-Git:  git://git.siduction.org/packages/siduction-repository/udev-config-siduction.git
 
 Package: udev-config-siduction
 Architecture: all
 Depends: 
  ${misc:Depends},
- udev (>= 0.091-1)
+ udev
 Breaks: 
  xserver-xorg-core (<< 2:1.7.6.901-2)
-Description: custom udev configurations for udev
+Description: custom udev configurations for siduction
  Configure PCI IDs and udev events needed by siduction.
  .
  This also provides xorg.conf.d snippets to enable advanced touchpad features

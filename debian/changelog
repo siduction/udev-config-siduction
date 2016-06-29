@@ -1,53 +1,48 @@
-udev-config-siduction (2014.01.08) unstable; urgency=medium
-
-  * remove xbsc-original-maintainer
-  * new copyright format
-  * new standards
-
- -- Alf Gaida <agaida@siduction.org>  Wed, 08 Jan 2014 19:17:16 +0100
-
-udev-config-siduction (0.12.2) unstable; urgency=low
-
-  * debian/source.lntian-overrides added to get rid of XSBC-Original-Maintainer
-    warnings 
-  * rebuild fixes #633 
-
- -- Alf Gaida <agaida@siduction.org>  Wed, 21 Mar 2012 23:08:57 +0100
-
-udev-config-siduction (0.12.1) unstable; urgency=low
-
-  * added myself to uploaders (was done former)
-  * debian/control uploder-> uploaders
-  * bump standards to 3.9.3
-  * debhelper (>= 9) 
-
- -- Alf Gaida <agaida@siduction.org>  Wed, 21 Mar 2012 10:54:53 +0100
-
-udev-config-siduction (0.12.0) unstable; urgency=low
-
-  * bumped version to 0.12.0
-
- -- Ferdinand Thommes <devil@siduction.org>  Fri, 21 Oct 2011 20:57:24 +0200
-
-udev-config-siduction (0.11.6+nmu2) UNRELEASED; urgency=low
-
-  * Non-maintainer upload.
-  * Fixes #259 - fix udev-config-siduction ./debian 
-
- -- Alf Gaida <info@g-com.eu>  Fri, 21 Oct 2011 20:57:02 +0200
-
-udev-config-siduction (0.11.6+nmu1) UNRELEASED; urgency=low
-
-  * Non-maintainer upload.
-  * rename to udev-config-siduction
-
- -- Ferdinand Thommes <devil@siduction.org>  Sat, 15 Oct 2011 12:42:12 +0200
-
-udev-config-aptosid (0.11.6) UNRELEASED; urgency=low
+udev-config-aptosid (0.11.12) UNRELEASED; urgency=medium
 
   * NOT RELEASED YET
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 29 Apr 2011 05:05:50 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 04 Jan 2015 01:45:16 +0100
+
+udev-config-aptosid (0.11.11) unstable; urgency=medium
+
+  * drop versioned dependency on udev, it's met in stable.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 04 Jan 2015 01:44:52 +0100
+
+udev-config-aptosid (0.11.10) unstable; urgency=medium
+
+  * bump standards version to 3.9.6, no changes necessary.
+  * convert to machine readable copyright.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 04 Jan 2015 00:52:35 +0100
+
+udev-config-aptosid (0.11.9) unstable; urgency=low
+
+  * bump standards version to 3.9.5, no changes necessary.
+  * debian/control: switch Vcs tags to github.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 14 Apr 2014 00:20:41 +0200
+
+udev-config-aptosid (0.11.8) unstable; urgency=low
+
+  * bump standards version to 3.9.4, no changes necessary.
+  * update FSF postal address to be URLs.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 12 Jan 2013 03:38:13 +0100
+
+udev-config-aptosid (0.11.7) unstable; urgency=low
+
+  * bump standards version to 3.9.3, no changes necessary.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 23 Feb 2012 16:55:31 +0100
+
+udev-config-aptosid (0.11.6) unstable; urgency=low
+
+  * switch to compat level 9.
+  * tighten udev rule for IR remotes.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 16 Jan 2012 03:33:22 +0100
 
 udev-config-aptosid (0.11.5) unstable; urgency=low
 
